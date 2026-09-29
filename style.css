@@ -1,0 +1,36 @@
+:root {
+    --space-sm: 2px;
+    --space-md: 5px;
+    --space-lg: 20px;
+    --space-xl: 150px;
+}
+
+#project_name{
+    font-weight: bold;
+}
+
+.developer_name{
+    text-align: center;
+    font-size: 350%;
+    font-weight: bold;
+    letter-spacing: var(--space-sm);
+}
+
+body{
+    background-color: aquamarine;
+    font-family: Arial, sans-serif;
+
+}
+
+.project_article{
+    border: var(--space-sm) solid black;
+    box-sizing: border-box;
+    margin-bottom: var(--space-lg);
+    padding: var(--space-md);
+}
+
+img{
+    width: 100%;
+    max-width: var(--space-xl);
+}
+
