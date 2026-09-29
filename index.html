@@ -10,7 +10,7 @@
             <h1>Daniel Gibor</h1>
         </header>
         <nav>
-            <h2>Table of Contents</h2>
+            <h1>Table of Contents</h1>
             <ul>
                 <li><a href="#about_content">About</a></li>
                 <li><a href="#about_skills">Skills</a></li>
@@ -20,7 +20,7 @@
         </nav>
         <main>
             <section>
-                <h2 id="about_content">About</h2>
+                <h1 id="about_content">About</h1>
                 <article>
                     <p>I am Daniel. I am a computer science graduate from the Hebrew University of Jerusalem, and I currently develop websites.</p>
                 </article>
@@ -28,9 +28,69 @@
                     <img src="images/1790666301301.jpg" alt="My Profile Photo">
                 </article>
                 <article>
-                    Check my research article about a tighter bounds for
-                    <a href="https://arxiv.org/pdf/2511.14244v2">the Randomized Polynomial-Time Simplex Algorithm for Linear Programming.</a>
+                    Check my research article about a 
+                    <a href="https://arxiv.org/pdf/2511.14244v2">Tighter Bounds for the Randomized Polynomial-Time Simplex Algorithm for Linear Programming.</a>
                 </article>
+            </section>
+            <section>
+                <h1 id="about_skills">Skills</h1>
+                <article>
+                    <ul>
+                        <li>Git</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </article>
+            </section>
+            <section>
+                <h1 id="about_projects">Projects</h1>
+                <article>
+                    <p id="project_name">Git Project</p>
+                    <p>This project provides the fundamental concepts and definitions needed to work with Git.</p>
+                    <p>Technologies and Techniques:</p>
+                    <ul>
+                        <li>Git</li>
+                    </ul>
+                    Link to the Project:
+                    <a href="https://github.com/danielgibor/my-git-journey-"> My Git Journey</a>
+                </article>
+                <article>
+                    <p id="project_name">Randomized Polynomial-Time Simplex Algorithm for Linear Programming</p>
+                    <p>Achieving high-probability polynomial-time guarantees in linear programming remains a major challenge in computer science and convex analysis. While the simplex method is a fundamental algorithm driving optimization across a wide array of scientific and industrial fields, its classic form suffers from an exponential worst-case theoretical running time. Existing randomized variants attempt to close this persistent gap between practical speed and theoretical guarantees, but often suffer from a low probability of success and remain computationally expensive due to inefficient geometric approaches.</p>
+                    <p>To address this challenge, this paper proposes an improved randomized simplex algorithm that utilizes logarithmic rounding and polytope perturbation to guarantee both tighter geometric bounds and a higher probability of success. The methodology builds upon existing frameworks by applying improved quasi-convex properties. Specifically, this study mathematically derives stronger bounds for the expected number of edges in the projection of a perturbed polytope onto a two-dimensional shadow plane, successfully addressing both near-isotropic and non-near-isotropic positions. By integrating a new expected value for independent, exponentially distributed random variables with logarithmic rounding, the proposed modification ensures that artificial vertex construction during initialization succeeds with an overwhelmingly high probability that approaches certainty as the problem size increases. Furthermore, the analysis demonstrates that the required pivot rule holds with a probability of at least 75%.</p>
+                    <p>Beyond linear programming, this rigorous geometric and probabilistic analysis yields tighter bounds for related problems in convex optimization, specifically 1-quasi-concave minimization and 1-quasi-convex maximization. These enhanced bounds pave the way for more robust and efficient solutions to various open stochastic algorithmic problems.</p>
+                </article>
+                    <p>Technologies and Techniques:</p>
+                    <ul>
+                        <li>Quasi-Convex Properties</li>
+                        <li>Logarithmic Rounding</li>
+                        <li>Logarithmic Perturbation</li>
+                        <li>One-Quasi-Concave Minimization</li>
+                    </ul>
+                    Link to the Project:
+                    <a href="https://arxiv.org/pdf/2511.14244v2">Tighter Bounds for the Randomized Polynomial-Time Simplex Algorithm for Linear Programming.</a>
+                <article>
+                    <p id="project_name">HTML & CSS Tutorial</p>
+                    <p>These are exercises from the HTML and CSS tutorial.</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                    Link to the Project:
+                    <a href="https://github.com/danielgibor/HTML-Exercise">HTML Exercise</a>
+                </article>
+            </section>
+            <section>
+                <h1 id="about_contact">Contact</h1>
+                <form>
+                    <label for="name">Name</label>
+                    <input id="name" name="user_name" type="text">
+                    <label for="email">Email</label>
+                    <input id="email" name="user_email" type="email">
+                    <label for="message">Message</label>
+                    <input id="message" name="user_message" type="text">
+                    <button type="submit">Submit</button>
+                </form>
             </section>
         </main>
         <footer></footer>
