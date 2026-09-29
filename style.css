@@ -5,6 +5,11 @@
     --space-xl: 150px;
 }
 
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 #project_name{
     font-weight: bold;
 }
@@ -34,3 +39,9 @@ img{
     max-width: var(--space-xl);
 }
 
+.ul_projects{
+    display: flex;
+    justify-content: left;
+    gap: var(--space-xl);
+    padding-left: var(--space-lg);
+}
