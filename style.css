@@ -3,6 +3,7 @@
     --space-md: 5px;
     --space-lg: 20px;
     --space-xl: 150px;
+    --space-xxl: 750px;
 }
 
 .skills{
@@ -25,6 +26,14 @@ body{
     background-color: aquamarine;
     font-family: Arial, sans-serif;
 
+}
+
+@media (min-width: var(--space-xxl)) {
+    .project_article{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
 }
 
 .project_article{
